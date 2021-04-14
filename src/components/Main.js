@@ -4,15 +4,16 @@ import React from 'react'
 const Main = () => {
     return (
         <div>
-           	<div className="" style={{"height":"80vh", "margin":"0 40px"}}>
-		        <h3>Mining emission compilation</h3>
-		        <table id="table" data-toggle="table" data-flat="true" data-search="true" data-url="https://blswlgmowg.execute-api.us-east-1.amazonaws.com/Production/emission" data-height="500" data-pagination="false">
+           	<div className="" style={{"margin":"0 40px"}}>
+		        <h3 style={{"marginTop":"40px","marginBottom":"-50px"}}>Mining emission compilation</h3>
+		        <table id="table" data-toggle="table" data-search="true" data-url="https://blswlgmowg.execute-api.us-east-1.amazonaws.com/Production/emission"  data-pagination="true" data-sort-name="Unique_ID"
+  data-sort-order="asc">
 			        <thead>
 			        	<tr>
-                            <th data-field="SCC" data-sortable="true">SCC</th>
-                            <th data-field="rows.SCC" data-sortable="true">Stargazers</th>
-                            <th data-field="github.count.forks" data-sortable="true">Forks</th>
-                            <th data-field="github.description" data-sortable="true">Description</th>
+                            <th data-field="Unique_ID" data-sortable="true">ID</th>
+                            <th data-field="LEVEL1" data-sortable="true">LEVEL1</th>
+                            <th data-field="LEVEL2" data-sortable="true">LEVEL2</th>
+                            <th data-field="POLLUTANTID" data-sortable="true">POLLUTANTID</th>
                         </tr>
                     </thead>
                 </table>
