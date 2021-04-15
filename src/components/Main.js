@@ -13,6 +13,7 @@ const Main = () => {
                             <th data-field="Unique_ID" data-sortable="true">ID</th>
                             <th data-field="LEVEL1" data-sortable="true">LEVEL1</th>
                             <th data-field="LEVEL2" data-sortable="true">LEVEL2</th>
+                            <th data-field="LEVEL4" data-sortable="true">LEVEL4</th>
                             <th data-field="POLLUTANTID" data-sortable="true">POLLUTANTID</th>
                         </tr>
                     </thead>
