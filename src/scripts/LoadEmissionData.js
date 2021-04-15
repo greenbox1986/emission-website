@@ -32,7 +32,9 @@ EmissionData.forEach(function (emission) {
 			"CONTROL": emission.CONTROL,
 			"Primary": emission.Primary,
 			"VALUE": emission.VALUE,
-			"UNIT": emission.UNIT,
+			"VALUE_UNIT": emission.VALUE_UNIT,
+			"FACTOR": emission.FACTOR,
+			"FACTOR_UNIT": emission.FACTOR_UNIT,
 			"MEASURE": emission.MEASURE,
 			"MATERIAL": emission.MATERIAL,
 			"ACTION": emission.ACTION,
@@ -53,7 +55,7 @@ EmissionData.forEach(function (emission) {
 	dynamodb.put(params, function (err, data) {
 		if (err)
 			console.error("Unable to load data into table for Emission",
-				emission.LEVEL1, ". Error: ", JSON.stringify(err, "NA", 2))
+				emission.LEVEL1, ". Error: ", JSON.stringify(err, "-", 2))
 		else
 			console.log("Added", emission.LEVEL1, "to table.")
 	});

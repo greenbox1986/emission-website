@@ -1,6 +1,16 @@
 .bootstrap-table .fixed-table-pagination>.pagination-detail .page-list {
    display: none;
 }
+.bootstrap-table .fixed-table-container .table thead th {
+   vertical-align: top;
+   padding: 0 10px;
+}
+.bootstrap-table .fixed-table-container .table td, .bootstrap-table .fixed-table-container .table th {
+   vertical-align: top;
+   white-space: nowrap;
+   width: 1%;
+}
+
 .footer {
    position:absolute;
    left: 0;
