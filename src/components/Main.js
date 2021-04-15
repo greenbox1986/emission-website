@@ -4,9 +4,9 @@ import React from 'react'
 const Main = () => {
     return (
         <div>
-           	<div className="" style={{"margin":"0 40px"}}>
-		        <h3 style={{"marginTop":"40px","marginBottom":"-50px"}}>Mining emission compilation</h3>
-
+           	<div style={{"margin":"0 40px"}}>
+		        {/*<h3 style={{"marginTop":"40px","marginBottom":"-50px"}}>Mining emission compilation</h3>*/}
+                
 		        <table id="table" data-toggle="table" data-search="true" data-url="https://blswlgmowg.execute-api.us-east-1.amazonaws.com/Production/emission"  data-pagination="true" data-sort-name="Unique_ID"
   data-sort-order="asc" data-search-highlight="true" data-filter-control="true" data-detail-formatter="detailFormatter">
 			        <thead>
