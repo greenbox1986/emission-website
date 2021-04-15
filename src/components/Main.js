@@ -10,7 +10,7 @@ const Main = () => {
 		        <table id="table" data-toggle="table" data-search="true" data-url="https://blswlgmowg.execute-api.us-east-1.amazonaws.com/Production/emission"  data-pagination="true" data-sort-name="Unique_ID"
   data-sort-order="asc" data-search-highlight="true" data-filter-control="true" data-detail-formatter="detailFormatter">
 			        <thead>
-			        	<tr>
+			        	<tr style={{"backgroundColor":"#fbfbfb"}}>
                             <th data-field="Unique_ID" data-sortable="true">ID</th>
                             <th data-field="LEVEL1" data-sortable="true">LEVEL1</th>
                             <th data-field="LEVEL2" data-sortable="true" data-filter-control="select">LEVEL2</th>

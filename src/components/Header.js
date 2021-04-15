@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light " style={{"height":"10vh"}}>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={{"height":"10vh"}}>
 		        <a className="navbar-brand" href="#">Mining Emission Compilation</a>
                 {/*
 		        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
